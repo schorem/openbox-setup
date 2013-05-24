@@ -39,7 +39,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Zukitwo</name>
+    <name>Elementary-Openbox</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -304,7 +304,7 @@
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>pcmanfm</command>
+        <command>thunar</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>File Manager</name>
@@ -383,6 +383,15 @@
         <startupnotify>
           <enabled>yes</enabled>
           <name>lock</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="W-r">
+      <action name="Execute">
+        <command>firefox-aurora /usr/share/ab/DOC.html</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>DOC</name>
         </startupnotify>
       </action>
     </keybind>
