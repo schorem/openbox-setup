@@ -172,9 +172,9 @@
 		<separator/>
 		<item label="Exit">
 			<action name="Execute">
-				<execute>
-					cb-exit
-				</execute>
+                        <execute>
+                        oblogout
+                        </execute>
 			</action>
 		</item>
 	</menu>
