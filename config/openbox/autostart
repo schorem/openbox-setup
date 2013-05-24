@@ -1,0 +1,7 @@
+#(sleep 3 && /usr/bin/nm-applet --sm-disable) &
+nitrogen --restore &
+(sleep 4s && /usr/bin/dropbox start) &
+volumeicon -b &
+thunar --daemon &
+compton -fC  &
+tint2 &
