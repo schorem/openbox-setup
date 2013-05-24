@@ -1,4 +1,3 @@
-(sleep 3 && /usr/bin/nm-applet --sm-disable) &
 nitrogen --restore &
 volumeicon -b &
 compton -fC  &
