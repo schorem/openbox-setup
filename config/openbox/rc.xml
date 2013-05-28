@@ -322,7 +322,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>lxterminal</command>
+        <command>sakura</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>lxterminal</name>
