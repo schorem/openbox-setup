@@ -5,11 +5,11 @@
 		<menu execute="~/.config/openbox/pipemenus/obpipemenu-places ~/" id="places" label="Places"/>
 		<menu execute="~/.config/openbox/pipemenus/obrecent.sh ~/" id="recent" label="Recent Files"/>
 		<menu id="Preferences" label="Preferences">
-			<menu id="root-menu-90523" label="Conky Config">
+			<!-- <menu id="root-menu-90523" label="Conky Config">
 				<item label="Edit .conkyrc">
 					<action name="Execute">
 						<execute>
-							leafpad ~/.conkyrc
+							mousepad ~/.conkyrc
 						</execute>
 					</action>
 				</item>
@@ -20,8 +20,8 @@
 						</execute>
 					</action>
 				</item>
-			</menu>
-			<menu id="root-menu-891528" label="Eye Candy">
+			</menu> -->
+			<!-- <menu id="root-menu-891528" label="Eye Candy">
 				<item label="No effects">
 					<action name="Execute">
 						<execute>
@@ -50,12 +50,12 @@
 						</execute>
 					</action>
 				</item>
-			</menu>
+			</menu> -->
 			<menu id="root-menu-525118" label="Openbox Config">
 				<item label="Edit autostart">
 					<action name="Execute">
 						<execute>
-							leafpad ~/.config/openbox/autostart
+							mousepad ~/.config/openbox/autostart
 						</execute>
 					</action>
 				</item>
@@ -91,28 +91,28 @@
 				<item label="Now">
 					<action name="Execute">
 						<execute>
-							scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+							scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; gpicview ~/$f'
 						</execute>
 					</action>
 				</item>
 				<item label="In 5 Seconds...">
 					<action name="Execute">
 						<execute>
-							scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+							scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; gpicview ~/$f'
 						</execute>
 					</action>
 				</item>
 				<item label="In 10 Seconds...">
 					<action name="Execute">
 						<execute>
-							scrot -d 10 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+							scrot -d 10 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; gpicview ~/$f'
 						</execute>
 					</action>
 				</item>
 				<item label="Selected Area... (click &amp; drag mouse)">
 					<action name="Execute">
 						<execute>
-							scrot -s '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+							scrot -s '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; gpicview ~/$f'
 						</execute>
 					</action>
 				</item>
@@ -121,7 +121,7 @@
 				<item label="Edit tint2rc">
 					<action name="Execute">
 						<execute>
-							leafpad ~/.config/tint2/tint2rc
+							mousepad ~/.config/tint2/tint2rc
 						</execute>
 					</action>
 				</item>
@@ -133,13 +133,6 @@
 					</action>
 				</item>
 			</menu>
-			<item label="Edit /etc/rc.conf">
-				<action name="Execute">
-					<execute>
-						sudo leafpad /etc/rc.conf
-					</execute>
-				</action>
-			</item>
 			<item label="Input Device Preferences">
 				<action name="Execute">
 					<execute>
