@@ -1,4 +1,4 @@
 nitrogen --restore &
-volumeicon -b &
+volumeicon &
 compton -fC  &
 tint2 &
