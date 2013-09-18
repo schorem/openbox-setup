@@ -2,3 +2,5 @@ nitrogen --restore &
 volumeicon &
 compton -fC  &
 tint2 &
+#sleep 1s && conky -c .config/conky/conkyrc-workspace &
+
