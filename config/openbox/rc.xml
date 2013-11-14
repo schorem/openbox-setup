@@ -272,9 +272,20 @@
         </startupnotify>
       </action>
     </keybind>
+    <!--
     <keybind key="A-F3">
       <action name="Execute">
         <command>~/.config/dmenu/dmenu-bind.sh</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>dmenu</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    -->
+    <keybind key="W-C-Space">
+      <action name="Execute">
+        <command>dmenu_run -i</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>dmenu</name>
